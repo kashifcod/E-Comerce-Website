@@ -19,8 +19,7 @@ const Header = () => {
                                 className="form-control"
                                 placeholder="Search products..."
                             />
-                            <button className="btn btn-dark" type="button">
-                                <i className="bi bi-search"></i>
+                            <button className="btn btn-primary" type="button">Search
                             </button>
                         </div>
                     </div>
@@ -38,7 +37,7 @@ const Header = () => {
                                 1
                             </span>
                         </Link>
-                        <button className="btn btn-primary ms-2">
+                        <button className="btn btn-primary ms-3">
                             <i className="bi bi-person me-2"></i>
                             Login
                         </button>
